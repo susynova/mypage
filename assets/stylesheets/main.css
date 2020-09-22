@@ -334,7 +334,15 @@ p a {
   border-radius: 5px;
   display: block;
   margin-bottom: 22px;
-  max-width: 50%
+  width: 100px;
+  height: 100px;
+  max-width: 200px;
+   transition: width 1s, height 1s; 
+}
+
+.teaser img:hover{
+  width: 200px;
+  height: 200px;
 }
 
 
@@ -367,9 +375,9 @@ p a {
   color: #293f50;
 }
 
-.speaker-info img {
+/* .speaker-info img {
   border-radius: 50%;
-  height: 130px;
+  height: 120px;
   margin: -66px 0 22px 0;
   vertical-align: top;
-}
+} */
